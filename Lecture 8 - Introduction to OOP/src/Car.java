@@ -10,10 +10,14 @@ public class Car {
     int currentSpeed = 10;
     Person owner;
 
-    public void ownerInfo() {
-        System.out.println("Owner name is " + owner.ime);
-        System.out.println("Owner's age is " + owner.godini);
+    public void ownerInfo(){
+        System.out.println(owner);
     }
+
+//    public void ownerInfo() {
+//        System.out.println("Owner name is " + owner.ime);
+//        System.out.println("Owner's age is " + owner.godini);
+//    }
 
     public void accelerate() {
         if (currentSpeed < maxSpeed) {
